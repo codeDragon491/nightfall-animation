@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background: linear-gradient(to bottom, #5c4a72 15%, #A3586D 30%, #F46A4E 45%, #f4874b 60%, #f3b05a 75%);
 }
 
 #demo {

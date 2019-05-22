@@ -31,7 +31,7 @@ function colorize(element) {
     if (isChrome) {
         TweenLite.set(element, { backgroundImage: "-webkit-linear-gradient(top," + colors.top + ", " + colors.middleTop + ", " + colors.middle + ", " + colors.middleBottom + ", " + colors.bottom + ")" });
     } else {
-        TweenLite.set(element, { background: "linear-gradient(to top," + colors.top + ", " + colors.middleTop + ", " + colors.middle + ", " + colors.middleBottom + ", " + colors.bottom + ")" });
+        TweenLite.set(element, { backgroundImage: "linear-gradient(to top," + colors.top + ", " + colors.middleTop + ", " + colors.middle + ", " + colors.middleBottom + ", " + colors.bottom + ")" });
     }
     //console.log(colors.top);
 }

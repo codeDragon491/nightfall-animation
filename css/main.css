@@ -1,49 +1,57 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    /*background: linear-gradient(to bottom, #5c4a72 15%, #A3586D 30%, #F46A4E 45%, #f4874b 60%, #f3b05a 75%);*/
 }
+
 #demo {
     width: 100vw;
     height: 100vh;
     position: relative;
 }
-#sun{
+
+#sun {
     width: 15rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-#moon{
+
+#moon {
     width: 15rem;
     display: block;
     position: absolute;
     bottom: 0;
     left: 50%;
     margin-left: -115.315px;
+    z-index: -1;
     opacity: 0;
 }
+
 #hill {
     z-index: 2;
     width: 100vw;
     position: fixed;
     bottom: 0;
 }
-@media only screen and (min-width : 320px) and (max-width : 1023px) { 
+
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
     body {
         display: none;
     }
 }
+
 #city {
     position: absolute;
     width: 100vw;
     bottom: 6%;
 }
-@media only screen and (min-width : 1366px) { 
+
+@media only screen and (min-width: 1366px) {
     #city {
         bottom: 10%;
     }
 }
+
 #restartBtn {
     position: absolute;
     right: 10%;
@@ -55,6 +63,7 @@ body{
     border: none;
     font-size: 1rem;
 }
+
 .star {
     position: absolute;
 }
@@ -63,12 +72,12 @@ body{
     width: 3rem;
     left: 10%;
     top: 10%;
-   }
+}
 
 #starGroupOne {
- width: 10rem;
- left: 20%;
- top: 20%;
+    width: 10rem;
+    left: 20%;
+    top: 20%;
 }
 
 #goldSparkle {
